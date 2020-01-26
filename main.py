@@ -8,7 +8,3 @@ class OpenerCounter:
         print('Exit time ', self.exit_time)
         self.res = self.exit_time - self.enter_time
         print('Spent: ', self.res)
-
-if __name__ == '__main__':
-    with OpenerCounter():
-        print('test')
